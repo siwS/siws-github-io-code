@@ -13,9 +13,17 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer{
+  padding-top: 30px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+},
 header,
 main,
+text {
+
+},
 menu,
 nav,
 section,
@@ -621,7 +629,7 @@ pre tt:after {
   }
 }
 .thistle {
-  background-color: Thistle;
+  background-color: lightsalmon;
 }
 .blue {
   background-color: DeepSkyBlue;

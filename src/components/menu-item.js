@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 const MenuItem = (props) => {
     return(
-      <Link to="/page-2/">
-        <div class={"sphere " + props.color}>
-          <div class="text">
+      <Link to={"/"+ props.url +"/"}>
+        <div className={"sphere " + props.color}>
+          <div className="text">
             {props.text}
           </div>
         </div>

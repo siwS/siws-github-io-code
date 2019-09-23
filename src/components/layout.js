@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import MenuItem from "../components/menu-item"
 
 import Header from "./header"
 import "./layout.css"
@@ -35,10 +36,17 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
+
+          <MenuItem color="blue" text="Photos" url="photos"/>
+          <MenuItem color="thistle" text="Greece" url="photos"/>
+          <MenuItem color="blue" text="Ireland" url="photos"/>
+          <MenuItem color="thistle" text="Stories" url="stories"/>
+          <MenuItem color="blue" text="Projects" url="photos"/>
+
           <footer>
-            © {new Date().getFullYear()}, Built by me with
+            © {new Date().getFullYear()}, Built by <a href="https://github.com/siwS">me</a> with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://pages.github.com/">Github pages</a>
           </footer>
         </div>
       </>

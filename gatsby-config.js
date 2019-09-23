@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `The Sofia world`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Sofia's brain storms`,
+    description: `This is the home of my creativity, thoughts and side projects.`,
+    author: `@SophieSiw`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `the-siw-world`,
+        name: `sofias-brainstorms`,
         short_name: `siw`,
         start_url: `/`,
         background_color: `#483D8B`,
         theme_color: `#483D8B`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
