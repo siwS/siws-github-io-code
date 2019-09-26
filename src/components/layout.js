@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import MenuItem from "../components/menu-item"
 
 import Header from "./header"
 import "./layout.css"
@@ -27,21 +26,32 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+
+        <nav className="menu">
+          <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open"/>
+          <label className="menu-open-button" htmlFor="menu-open">
+            <span className="lines line-1"></span>
+            <span className="lines line-2"></span>
+            <span className="lines line-3"></span>
+          </label>
+
+          <a href="/" className="menu-item purple" title="About"> <i className="fas fa-female"></i> </a>
+          <a href="stories" className="menu-item blue" title="Stories"> <i className="fas fa-book"></i> </a>
+          <a href="projects" className="menu-item lightblue" title="Projects"> <i className="fa fa-diamond"></i> </a>
+          <a href="/" className="menu-item orange"> <i className="fa fa-star"></i> </a>
+          <a href="contact" className="menu-item green" title="Contact"> <i className="fa fa-coffee"></i> </a>
+          <a href="photos" className="menu-item red" title="Pictures"> <i className="far fa-images"></i> </a>
+        </nav>
+
         <div
           style={{
-            margin: `0 auto`,
+            margin: '0 auto',
             maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
+            padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}
         >
           <main>{children}</main>
-
-          <MenuItem color="blue" text="Photos" url="photos"/>
-          <MenuItem color="thistle" text="Greece" url="photos"/>
-          <MenuItem color="blue" text="Ireland" url="photos"/>
-          <MenuItem color="thistle" text="Stories" url="stories"/>
-          <MenuItem color="blue" text="Projects" url="photos"/>
 
           <footer>
             © {new Date().getFullYear()}, Built by <a href="https://github.com/siwS">me</a> with

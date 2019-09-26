@@ -3,15 +3,20 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import App from "../components/app"
+import IntercomApp from "../components/intercom-app"
+import greekFlag from "../images/greek-flag.ico"
+import irishFlag from "../images/irish-flag.png"
 
 const IndexPage = () => (
   <div>
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h2>Hello!</h2>
 
-    <p>I am Sofia. Originally from Greece living in Dublin and working for Intercom as a Software Engineer.</p>
+    <h2>About</h2>
+
+    <p>Hello! Welcome to the home of my thoughts, creativity, and side-projects.</p>
+
+    <p>I am Sofia. Originally from <img src={greekFlag} width={"15px"} style={{marginBottom: 0}}/> living in <img src={irishFlag} width={"20px"}/> and working for Intercom as a Software Engineer.</p>
 
     <p>I like to explore Ireland and the rest of the world, while documenting my findings. <br/>
     I love discussing the peculiarity of our existence, brainstorming and pretending to be a psychologist.</p>
@@ -20,11 +25,10 @@ const IndexPage = () => (
       <Image />
     </div>
 
-    <p>This is the home of my thoughts, creativity, and side-projects.</p>
 
   </Layout>
 
-    <App/>
+    <IntercomApp/>
 
   </div>
 )

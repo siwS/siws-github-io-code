@@ -1,7 +1,7 @@
 import React from 'react';
 import Intercom from 'react-intercom';
 
-const App = (props) => {
+const IntercomApp = (props) => {
 
     return(
       <div className="app">
@@ -10,4 +10,4 @@ const App = (props) => {
     );
   }
 
-export default App
+export default IntercomApp
