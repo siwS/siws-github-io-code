@@ -18,6 +18,9 @@ footer{
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width:100%;
+  position:fixed;
+  bottom:20px;
 }
 header,
 main,

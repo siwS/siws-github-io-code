@@ -28,8 +28,6 @@ const IndexPage = () => (
 
   </Layout>
 
-    <IntercomApp/>
-
   </div>
 )
 

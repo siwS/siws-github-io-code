@@ -20,6 +20,7 @@
     "react-intercom": "^1.0.15"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.16.4"
   },
   "keywords": [
@@ -30,6 +31,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
