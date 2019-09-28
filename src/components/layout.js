@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -35,12 +35,24 @@ const Layout = ({ children }) => (
             <span className="lines line-3"></span>
           </label>
 
-          <a href="/" className="menu-item purple" title="About"> <i className="fas fa-female"></i> </a>
-          <a href="stories" className="menu-item blue" title="Stories"> <i className="fas fa-book"></i> </a>
-          <a href="projects" className="menu-item lightblue" title="Projects"> <i className="fa fa-diamond"></i> </a>
-          <a href="/" className="menu-item orange"> <i className="fa fa-star"></i> </a>
-          <a href="contact" className="menu-item green" title="Contact"> <i className="fa fa-coffee"></i> </a>
-          <a href="photos" className="menu-item red" title="Pictures"> <i className="far fa-images"></i> </a>
+          <Link to="/" className="menu-item purple" title="About">
+            <i className="fas fa-female"></i>
+          </Link>
+          <Link to="/stories" className="menu-item blue" title="Stories">
+            <i className="fas fa-book"></i>
+          </Link>
+          <Link to="/projects" className="menu-item lightblue" title="Projects">
+            <i className="fa fa-diamond"></i>
+          </Link>
+          <Link to="/" className="menu-item orange" title="">
+            <i className="fa fa-star"></i>
+          </Link>
+          <Link to="/contact" className="menu-item green" title="Contact">
+            <i className="fa fa-coffee"></i>
+          </Link>
+          <Link to="/photos" className="menu-item red" title="Pictures">
+            <i className="fa fa-images"></i>
+          </Link>
         </nav>
 
         <div
