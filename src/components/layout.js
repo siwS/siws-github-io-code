@@ -55,23 +55,17 @@ const Layout = ({ children }) => (
           </Link>
         </nav>
 
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '10px 1.0875rem 1.45rem',
-            borderRadius: '25px',
-            background: '#F5FBEF',
-          }}
-        >
-          <main>{children}</main>
-
-          <footer>
-            © {new Date().getFullYear()}, Built by <a href="https://github.com/siwS">me</a> with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://pages.github.com/">Github pages</a>
-          </footer>
+        <div id="page-wrapper">
+          <div id="page-container">
+            <main>{children}</main>
+          </div>
         </div>
+
+        <footer>
+          © {new Date().getFullYear()}, Built by <a href="https://github.com/siwS">me</a> with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://pages.github.com/">Github pages</a>
+        </footer>
       </>
     )}
   />
