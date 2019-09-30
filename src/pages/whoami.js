@@ -5,8 +5,8 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h2>Photos</h2>
+    <SEO title="Who Am I "/>
+    <h2>Who Am I</h2>
 
     <i className="fas fa-brush"/> <span style={{marginLeft: '10px'}}> Coming soon... </span>
   </Layout>
