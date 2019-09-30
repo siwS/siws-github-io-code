@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import IntercomApp from "../components/intercom-app"
 import greekFlag from "../images/greek-flag.ico"
 import irishFlag from "../images/irish-flag.png"
 

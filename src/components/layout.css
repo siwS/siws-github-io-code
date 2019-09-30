@@ -29,6 +29,7 @@ figure,
   border-radius: 25px;
   background: #F5FBEF;
   position: relative;
+  z-index: -1;
 }
 header,
 main
