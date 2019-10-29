@@ -8,6 +8,10 @@ const intercomUrl = "https://www.intercom.com/blog"
 
 const mediumPosts = [
   {
+    url: mediumUrl + "/reflecting-on-4-years-abroad-9f673f44d166",
+    title: "Reflecting on 4 years abroad\n",
+  },
+  {
     url: mediumUrl + "/why-everyone-should-try-psychotherapy-and-some-common-misconceptions-about-it-cd0be336af4",
     title: "Why everyone should try psychotherapy and some common misconceptions about it",
   },
