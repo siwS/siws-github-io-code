@@ -13,13 +13,13 @@ const IndexPage = () => (
 
     <h2>About</h2>
 
-    <p>Hello! Welcome to the home of my thoughts, creativity, and side-projects.</p>
+    <p>Hello! Welcome to the home of my thoughts & creativity.</p>
 
-    <p>I am Sofia. Originally from <img src={greekFlag} width={"15px"} style={{marginBottom: 0}} alt={"greek flag"}/> living in <img src={irishFlag} width={"20px"} alt={"irish flag"}/> . Working for Intercom as a Software Engineer.</p>
+    <p>I am Sofia. Originally from <img src={greekFlag} width={"15px"} style={{marginBottom: 0}} alt={"greek flag"}/> living in <img src={irishFlag} width={"20px"} alt={"irish flag"}/> .</p>
 
-    <p>I like to explore Ireland and the rest of the world, while documenting my findings. </p>
+    <p>I like to explore the world while documenting my findings. </p>
 
-    <p>I love discussing the peculiarity of existence, brainstorming and pretending to be a psychologist.</p>
+    <p>I love discussing the peculiarity of our existence and pretending to be a psychologist.</p>
 
     <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
       <Image />

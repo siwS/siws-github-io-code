@@ -56,7 +56,7 @@ const intercomPosts = [
   },
 ]
 
-const SecondPage = () => (
+const StoriesPage = () => (
   <Layout>
     <SEO title="Stories"/>
     <h2>Stories</h2>
@@ -87,4 +87,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default StoriesPage

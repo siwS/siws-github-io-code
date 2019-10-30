@@ -21,7 +21,7 @@ const Menu = () => {
       <Link to="/projects" className="menu-item lightblue" title="Projects">
         <i className="fa fa-diamond"/>
       </Link>
-      <Link to="/whoami" className="menu-item orange" title="">
+      <Link to="/whoami" className="menu-item orange" title="Work">
         <i className="fa fa-star"/>
       </Link>
       <Link to="/contact" className="menu-item green" title="Contact">
