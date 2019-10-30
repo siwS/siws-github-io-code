@@ -6,7 +6,6 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `Teal`,
-      marginBottom: `1.45rem`,
     }}
   >
     <div
@@ -28,6 +27,8 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <div className="scallop-down"></div>
+
   </header>
 )
 
