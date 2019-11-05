@@ -64,9 +64,13 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+a:link {
+    text-decoration: none;
+}
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: underline;
 }
 abbr[title] {
   border-bottom: none;
@@ -340,7 +344,7 @@ hgroup {
 ul {
   margin-left: 1.45rem;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 20px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;

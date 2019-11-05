@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import intercomlogo from "../images/intercomlogo.png"
+import mediumlogo from "../images/medium.png"
 
 const mediumUrl = "https://medium.com/@sofiatzima"
 const intercomUrl = "https://www.intercom.com/blog"
@@ -61,7 +63,7 @@ const StoriesPage = () => (
     <SEO title="Stories"/>
     <h2>Stories</h2>
 
-    <p>Medium</p>
+    <a href="https://medium.com/@sofiatzima" target="_blank" rel="noopener noreferrer"><img src={mediumlogo} width={"80px"} style={{marginBottom: 0}} alt={"intercom"}/></a>
 
     <ul>
       {
@@ -75,7 +77,7 @@ const StoriesPage = () => (
 
     <hr className="fading"/>
 
-    <p>Intercom blog</p>
+      <a href="https://www.intercom.com/" target="_blank" rel="noopener noreferrer"><img src={intercomlogo} width={"20px"} style={{marginBottom: 0}} alt={"intercom"}/><b> Inside Intercom</b></a>
 
     <ul>
       {
