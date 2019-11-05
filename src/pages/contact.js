@@ -18,15 +18,11 @@ const ContactPage = () => (
         If you want to chat about work, or grab a coffee, you can reach out to me by:
       </p>
 
-      <p>
-        <a href="mail-to:tzi.sof@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} width={"20px"} style={{marginBottom: 0}} alt={"email"}/></a>
-      </p>
-      <p>
-        <a href="https://twitter.com/SophieSiw" target="_blank" rel="noopener noreferrer"><img src={twitter} width={"20px"} style={{marginBottom: 0}} alt={"twitter"}/></a>
-      </p>
-      <p>
-        <a href="https://www.linkedin.com/in/sofiatzima" target="_blank" rel="noopener noreferrer"><img src={linkedin} width={"20px"} style={{marginBottom: 0}} alt={"linkedin"}/></a>
-      </p>
+      <ul style={{ listStyle: `none` }}>
+        <li><a href="mail-to:tzi.sof@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} width={"20px"} style={{marginBottom: 0}} alt={"email"}/></a></li>
+        <li><a href="https://twitter.com/SophieSiw" target="_blank" rel="noopener noreferrer"><img src={twitter} width={"20px"} style={{marginBottom: 0}} alt={"twitter"}/></a></li>
+        <li><a href="https://www.linkedin.com/in/sofiatzima" target="_blank" rel="noopener noreferrer"><img src={linkedin} width={"20px"} style={{marginBottom: 0}} alt={"linkedin"}/></a></li>
+      </ul>
 
     ....or you can write to me in Intercom <img src={arrow} width={"25px"} style={{marginBottom: 0}}/>
 
