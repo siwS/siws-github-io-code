@@ -77,7 +77,7 @@ const StoriesPage = () => (
 
     <hr className="fading"/>
 
-      <a href="https://www.intercom.com/" target="_blank" rel="noopener noreferrer"><img src={intercomlogo} width={"20px"} style={{marginBottom: 0}} alt={"intercom"}/><b> Inside Intercom</b></a>
+    <a href="https://www.intercom.com/" target="_blank" rel="noopener noreferrer"><img src={intercomlogo} width={"20px"} style={{marginBottom: 0}} alt={"intercom"}/><b> Inside Intercom</b></a>
 
     <ul>
       {
