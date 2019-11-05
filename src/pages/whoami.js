@@ -13,7 +13,9 @@ const WhoAmIPage = () => (
     <h2>Experience</h2>
 
     <a href="https://www.changex.org/ie/" target="_blank" rel="noopener noreferrer"><img src={changexlogo} width={"120px"} style={{marginBottom: 0}} alt={"changeX"}/></a>
-    <p>Currently helping social innovators make the world a better place through communities at ChangeX.</p>
+    <p>Currently helping social innovators and funders make the world a better place through communities at ChangeX. Interested? Feel free to reach out to me! </p>
+
+    <hr className="fading"/>
 
     <a href="https://www.intercom.com/" target="_blank" rel="noopener noreferrer"><img src={intercomlogo} width={"50px"} style={{marginBottom: 0}} alt={"intercom"}/></a>
 
@@ -42,9 +44,9 @@ const WhoAmIPage = () => (
         </li>
       </ul>
 
+    <hr className="fading"/>
+
     <a href="https://www.workday.com/" target="_blank" rel="noopener noreferrer"><img src={workdaylogo} width={"45px"} style={{marginBottom: 0}} alt={"workday"}/></a>
-
-
 
     <p>
       In Workday I was part of the <a herd="https://www.workday.com/content/dam/web/en-us/documents/datasheets/datasheet-workday-procurement.pdf" target="_blank" rel="noopener noreferrer">Procurement</a> team.
@@ -55,6 +57,7 @@ const WhoAmIPage = () => (
       </li>
     </ul>
 
+    <hr className="fading"/>
 
     <a href="https://www.vermantia.com" target="_blank" rel="noopener noreferrer"><img src={vermantialogo} width={"100px"} style={{marginBottom: 0}} alt={"vermantia"}/></a>
   </Layout>

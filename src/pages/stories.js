@@ -61,7 +61,7 @@ const StoriesPage = () => (
     <SEO title="Stories"/>
     <h2>Stories</h2>
 
-    <p>On Medium</p>
+    <p>Medium</p>
 
     <ul>
       {
@@ -73,7 +73,9 @@ const StoriesPage = () => (
       }
     </ul>
 
-    <p>On Intercom blog</p>
+    <hr className="fading"/>
+
+    <p>Intercom blog</p>
 
     <ul>
       {
