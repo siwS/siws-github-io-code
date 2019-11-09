@@ -22,7 +22,7 @@ const Menu = () => {
         <i className="fa fa-diamond"/>
       </Link>
       <Link to="/whoami" className="menu-item orange" title="Work">
-        <i className="fa fa-star"/>
+        <i className="fas fa-briefcase"></i>
       </Link>
       <Link to="/contact" className="menu-item green" title="Contact">
         <i className="fa fa-coffee"/>
