@@ -17,7 +17,11 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "react-intercom": "^1.0.15"
+    "react-intercom": "^1.0.15",
+    "react-tabs": "^3.0.0",
+    "react-image-gallery": "0.9.1",
+    "@reach/router": "latest",
+    "query-string": "latest"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",

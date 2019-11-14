@@ -4,23 +4,40 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntercomApp from "../components/intercom-app.js"
 
+import linkedin from "../images/linkedin.png"
+import twitter from "../images/twitter.png"
+import email from "../images/email.png"
+import arrow from "../images/arrow.png"
+
 const ContactPage = () => (
   <div>
     <Layout>
-      <SEO title="Contact" />
+      <SEO title="Contact"/>
       <h2>Contact</h2>
       <p>
-        Hey! If you wanna chat about work, or grab a coffee, you can reach out:
+        If you want to chat about work, or grab a coffee, you can reach out to me by:
       </p>
 
-      <ul>
-        <li>email: <a href="mail-to:tzi.sof@gmail.com">tzi.sof-at-gmail.com</a></li>
-        <li>twitter: <a href="https://twitter.com/SophieSiw">SophieSiw</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/sofiatzima/">Sofia Tzima</a></li>
-        <li>or you can write to me in Intercom</li>
+      <ul style={{ listStyle: `none` }}>
+        <li><a href="mail-to:tzi.sof@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img src={email}
+               width={"20px"}
+               style={{ marginBottom: 0 }}
+               alt={"email"}/></a></li>
+        <li><a href="https://twitter.com/SophieSiw" target="_blank" rel="noopener noreferrer">
+          <img
+            src={twitter}
+            width={"20px"}
+            style={{ marginBottom: 0 }}
+            alt={"twitter"}/></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/sofiatzima" target="_blank" rel="noopener noreferrer">
+          <img
+            src={linkedin} width={"20px"} style={{ marginBottom: 0 }} alt={"linkedin"}/></a>
+        </li>
       </ul>
 
-
+      ....or you can write to me in Intercom <img src={arrow} width={"25px"} style={{ marginBottom: 0 }}/>
 
     </Layout>
     <IntercomApp/>

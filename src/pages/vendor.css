@@ -1,0 +1,8 @@
+@import "../../node_modules/react-tabs/style/react-tabs.css";
+
+.react-tabs__tab--selected {
+    background: #E0F2F1;
+    border-color: #A2D9CE;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
