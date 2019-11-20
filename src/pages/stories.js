@@ -10,6 +10,10 @@ const intercomUrl = "https://www.intercom.com/blog"
 
 const mediumPosts = [
   {
+    url: mediumUrl + "yet-another-imposter-syndrome-analysis-5eab4434877c",
+    title: "Yet another impostor syndrome analysis",
+  },
+  {
     url: mediumUrl + "/reflecting-on-4-years-abroad-9f673f44d166",
     title: "Reflecting on 4 years abroad\n",
   },
