@@ -11,10 +11,10 @@ const Experience = () => {
     <div>
       <h2>Experience</h2>
       <p>
-        During my career I have worked with multiple organisations of different size and styles. <p>I love building
+        During my career I have worked with multiple organisations of different size and styles.</p>
+      <p>I love building
         products
         that have an impact on people's lives, and learning about different domains.</p>
-      </p>
       <p>
         I also do freelancing so if you have an interesting project, feel free to
         <Link to="/contact"

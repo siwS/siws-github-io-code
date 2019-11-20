@@ -17,7 +17,7 @@ a {
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    margin-left: 100px;
+
     position: absolute;
     color: #FFFFFF;
     text-align: center;
@@ -81,12 +81,18 @@ a {
 }
 
 .menu {
-    margin: auto;
     margin-bottom: 20px;
     height: 80px;
-    /*text-align: center;*/
     box-sizing: border-box;
     font-size: 26px;
+    position: absolute;
+    left: 25%;
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        left: 40%;
+    }
 }
 
 .menu-item:hover {
@@ -275,24 +281,6 @@ a {
     color: #62C2E4;
     text-shadow: none;
 }
-
-.credit {
-    margin: 24px 20px 120px 0;
-    text-align: right;
-    color: #EEEEEE;
-}
-
-.credit a {
-    padding: 8px 0;
-    color: #C49CDE;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-}
-
-.credit a:hover {
-    text-decoration: underline;
-}
-
 
 /* divider */
 

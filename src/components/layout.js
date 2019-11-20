@@ -27,9 +27,10 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Menu/>
 
         <div id="page-wrapper">
+          <div id="sub-menu"></div>
+
           <div id="page-container">
             <main>{children}</main>
           </div>
