@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "gatsby"
 import "./menu.css"
 import ntualogo from "../images/ntua.png"
 import ucdlogo from "../images/ucd.png"

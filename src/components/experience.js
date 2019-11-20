@@ -76,7 +76,7 @@ const Experience = () => {
 
       <p>
         In Workday I was part of the <a
-        herd="https://www.workday.com/content/dam/web/en-us/documents/datasheets/datasheet-workday-procurement.pdf"
+        href="https://www.workday.com/content/dam/web/en-us/documents/datasheets/datasheet-workday-procurement.pdf"
         target="_blank" rel="noopener noreferrer">Procurement</a> team.
       </p>
       <ul>
@@ -94,7 +94,6 @@ const Experience = () => {
              style={{ marginBottom: 0 }}
              alt={"vermantia"}/></a>
     </div>
-
   );
 }
 
