@@ -63,7 +63,7 @@ const StoriesPage = () => (
     <SEO title="Stories"/>
     <h2>Stories</h2>
 
-    <a href="https://medium.com/@sofiatzima" target="_blank" rel="noopener noreferrer">
+    <a href={mediumUrl} target="_blank" rel="noopener noreferrer">
       <img src={mediumlogo}
            width={"80px"}
            style={{ marginBottom: 0 }}
@@ -72,7 +72,7 @@ const StoriesPage = () => (
     <ul>
       {
         mediumPosts.map(post => {
-          return <li>
+          return <li key={post.title}>
             <a href={post.url} target="_blank" rel="noopener noreferrer">{post.title}</a>
           </li>
         })
@@ -81,7 +81,7 @@ const StoriesPage = () => (
 
     <hr className="fading"/>
 
-    <a href="https://www.intercom.com/" target="_blank" rel="noopener noreferrer">
+    <a href={intercomUrl} target="_blank" rel="noopener noreferrer">
       <img src={intercomlogo} width={"20px"}
            style={{ marginBottom: 0 }}
            alt={"intercom"}/><b> Inside
@@ -90,7 +90,7 @@ const StoriesPage = () => (
     <ul>
       {
         intercomPosts.map(post => {
-          return <li>
+          return <li key={post.title}>
             <a href={post.url} target="_blank" rel="noopener noreferrer">{post.title}</a>
           </li>
         })

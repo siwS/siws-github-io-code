@@ -37,8 +37,7 @@ const ContactPage = () => (
         </li>
       </ul>
 
-      ....or you can write to me in Intercom <img src={arrow} width={"25px"} style={{ marginBottom: 0 }}/>
-
+      ....or you can write to me in Intercom <img src={arrow} alt="right down arrow" width={"25px"} style={{ marginBottom: 0 }}/>
     </Layout>
     <IntercomApp/>
   </div>
