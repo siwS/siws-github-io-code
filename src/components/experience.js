@@ -16,9 +16,7 @@ const Experience = () => {
         products
         that have an impact on people's lives, and learning about different domains.</p>
       <p>
-        I also do freelancing so if you have an interesting project, feel free to
-        <Link to="/contact"
-              title="Contact">contact</Link> me.
+        I also do freelancing so if you have an interesting project, feel free to  <Link to="/contact" title="Contact">contact</Link> me.
       </p>
       <br/>
       <a href="https://www.changex.org/ie/" target="_blank" rel="noopener noreferrer">
@@ -27,8 +25,7 @@ const Experience = () => {
              style={{ marginBottom: 0 }}
              alt={"changeX"}/></a>
       <p>Currently helping social innovators, funders and community builders to make the world a better place at ChangeX.
-        If
-        it sounds interesting let's talk! </p>
+        If it sounds interesting let's talk! </p>
 
       <hr className="fading"/>
 

@@ -17,6 +17,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-html-parser": "latest",
     "react-intercom": "^1.0.15",
     "react-tabs": "^3.0.0",
     "react-image-gallery": "0.9.1",
