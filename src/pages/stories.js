@@ -10,16 +10,15 @@ class StoriesPage extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { tabIndex: 0 };
+    this.state = { tabIndex: this.props.location.search ? 1 : 0 };
   }
 
   render() {
-    console.log()
     return(
       <Layout>
         <SEO title="Stories"/>
 
-        <Tabs selectedIndex={this.props.location.search ? 1 : this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })} >
+        <Tabs selectedIndex ={ this.state.tabIndex } onSelect = { tabIndex => { this.setState({ tabIndex })}}>
           <TabList>
             <Tab><i className="fas fa-blog"/></Tab>
             <Tab><i className="fas fa-feather"/></Tab>
