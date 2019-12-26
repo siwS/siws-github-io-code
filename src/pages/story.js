@@ -33,6 +33,7 @@ const Story = ({ search }) => {
 
           <div class="image">
             <img src={image} width={500} alt='Image for story'/>
+            <div class="image_title">{file.image_title}</div>
           </div>
 
           { ReactHtmlParser (file.content) }

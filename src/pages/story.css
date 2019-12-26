@@ -13,6 +13,11 @@
     text-align: center
 }
 
+.image_title {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
 .centered {
     text-align: center;
     font-style: italic;

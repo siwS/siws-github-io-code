@@ -19,7 +19,7 @@ const IndexPage = () => (
       <p>I am Sofia. I write <Link to="/whoami" title="Work">code</Link> and <Link to="/stories"
                                                                                    title="Stories">stories</Link>.</p>
 
-      <p>Originally from <img src={greekFlag} width={"15px"} style={{ marginBottom: 0 }} alt={"greek flag"}/> living and
+      <p>Originally from <img src={greekFlag} width={"15px"}  alt={"greek flag"}/> living and
         working in <img src={irishFlag} width={"20px"} alt={"irish flag"}/> as a Software Engineer.</p>
 
       <p>I like exploring the world and pretending to be a psychologist. </p>

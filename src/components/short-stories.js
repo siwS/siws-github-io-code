@@ -5,11 +5,15 @@ import { Link } from "gatsby"
 const short_stories = [
   {
     name: "vilnius",
-    title: "Not all those who wonder are lost."
+    title: "Not all those who wonder are lost"
   },
   {
     name: "derry",
     title: "Stuck in the snow in the north"
+  },
+  {
+    name: "niagra",
+    title: "Sharing a bed in Toronto"
   }
 ]
 
