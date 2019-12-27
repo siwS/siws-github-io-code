@@ -27,7 +27,7 @@ const Menu = () => {
       <Link to="/contact" className="menu-item green" title="Contact">
         <i className="fa fa-coffee"/>
       </Link>
-      <Link to="/photos" className="menu-item red" title="Pictures">
+      <Link to="/photos/dublin" className="menu-item red" title="Pictures">
         <i className="fa fa-images"/>
       </Link>
     </nav>

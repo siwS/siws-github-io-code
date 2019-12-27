@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "sofia-brainstorms",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Sofia's brainstorms",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sofia Tzima @siws",
   "dependencies": {
     "gatsby": "^2.1.31",
     "gatsby-image": "^2.0.33",
@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.0",
     "react-html-parser": "latest",
     "react-intercom": "latest",
+    "@browniebroke/gatsby-image-gallery": "latest",
     "react-tabs": "latest",
     "@reach/router": "latest",
     "query-string": "latest"

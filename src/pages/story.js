@@ -32,7 +32,7 @@ const Story = ({ search }) => {
           <div className="date">{file.date}</div>
 
           <div class="image">
-            <img src={image} width={500} alt='Image for story'/>
+            <img src={image} width={500} alt='Story...'/>
             <div class="image_title">{file.image_title}</div>
           </div>
 

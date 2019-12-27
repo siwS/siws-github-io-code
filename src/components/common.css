@@ -74,3 +74,12 @@
         background-position: -96px;
     }
 }
+
+.photo_url {
+    padding-left: 10px;
+}
+
+[aria-current]:not([aria-current="false"]) {
+    padding-left: 10px;
+    font-weight: bold;
+}
