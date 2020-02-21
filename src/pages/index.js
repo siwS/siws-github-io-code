@@ -12,7 +12,7 @@ const IndexPage = () => {
   return (
   <div>
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
+      <SEO title="Home" keywords={[`sofia tzima`, `developer`, `sofia's brainstorms`, `sofia`, `tzima`, `sofia.tzima@intercom`, `sofia@changex`, `stories`, `blog posts`]}/>
 
       <h2>About</h2>
 

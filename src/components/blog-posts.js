@@ -9,7 +9,11 @@ const intercomUrl = "https://www.intercom.com/blog"
 
 const mediumPosts = [
   {
-    url: mediumUrl + "yet-another-imposter-syndrome-analysis-5eab4434877c",
+    url: mediumUrl + "/directness-lessons-for-indirect-people-b8b9713405fc",
+    title: "Directness lessons for indirect people\n",
+  },
+  {
+    url: mediumUrl + "/yet-another-imposter-syndrome-analysis-5eab4434877c",
     title: "Yet another impostor syndrome analysis\n",
   },
   {
